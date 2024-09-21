@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Desafio 1 - DNC</title>
+</head>
+<body>
+    <!--MENU SUPERIOR-->
+    <div id="menu-superior">
+    <h1 id="titulo-menu-superior">Tradição em projetos de arquitetura</h1>
+    <p id="paragrafo-menu-superior">Arquitetura residencial e comercial. </p>
+    </div>
+
+    <!--MENU INFORMATIVO-->
+    <div id="menu-informativo">
+        <img src="imagem/menu-info.svg" alt="">
+    </div>
+    <!--MEIO DA PÁGINA-->
+    <div id="meio-corpo">
+    <div id="corpo-pag">
+        <h1 id="titulo-corpo-pag">Arquitetos com hostória e experência</h1>
+        <p id="paragrafo-corpo-pag">Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
+            Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
+             como principal proposta transformar em realidade os sonhos de <br>
+              seus clientes, criando projetos personalizados, unindo a tradição <br>
+               e a modernidade em nossos projetos.</p>
+        </div>
+        <img id="foto" src="imagem/foto.svg" alt="ERRO!">       
+    </div>
+    <!--FORMULÁRIO-->
+    <div id="formulario">
+        <h1 id="titulo-fotrmulario">Conheça mais sobre nossos serviços:</h1>
+        <form action="https://api.sheetmonkey.io/form/w79roMMmHNybu41rskiFAS" method="post">
+        <input type="text" placeholder="Nome" name="Name" required><br>
+        <input type="text" placeholder="E-mail" name="E-mail" required><br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button onclick="MinhaFuncao()" type="submit">Fale conosco</button>
+
+        <script>
+            function MinhaFuncao(){
+                alert("Agradecemos o seu interesse, enviamos nosso portifólio para o e-mail informado.")
+            }
+        </script>
+
+    </div>
+</body>
+</html>
